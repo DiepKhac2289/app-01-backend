@@ -35,3 +35,14 @@ INSTALL PACKAGE & LIBRARY
   PATCH: Để cập nhật một phần của tài nguyên.
   DELETE: Để xóa một tài nguyên.
 - Mô hình MVC (Model - View - Controller)
+  Các phần cấu hình khi user click vào Home/Service/About/Blog thì sẽ thiết lập trong file Config, từ đây sẽ trỏ tới folder routes, và đi tới view để hiển thị.
+  DB Connection cũng như vậy
+
+---
+
+GITHUB
+
+- git add . # Thêm tất cả các file
+- hoặc git add file1.js file2.css # Thêm các file cụ thể.
+- git commit -m "message"
+- git push origin main
