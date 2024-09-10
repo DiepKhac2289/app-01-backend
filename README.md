@@ -35,8 +35,11 @@ INSTALL PACKAGE & LIBRARY
   PATCH: Để cập nhật một phần của tài nguyên.
   DELETE: Để xóa một tài nguyên.
 - Mô hình MVC (Model - View - Controller)
-  Các phần cấu hình khi user click vào Home/Service/About/Blog thì sẽ thiết lập trong file Config, từ đây sẽ trỏ tới folder routes, và đi tới view để hiển thị.
-  DB Connection cũng như vậy
+  - Các phần cấu hình khi user click vào Home/Service/About/Blog thì sẽ thiết lập trong file Config, từ đây sẽ trỏ tới folder routes, và đi tới view để hiển thị.
+    DB Connection cũng như vậy
+  - Trong file configViewEngine.js sẽ định nghĩa hết đường path dẫn tới các file như views, public (cho các file static)
+  - Nếu đã định nghĩa rồi thì khai báo (vd: css) sẽ ko cần phải thêm path khai báo nữa. ví dụ: đã khai báo /public thì phần khai báo css sẽ chỉ cần css/style.css
+  -
 
 ---
 

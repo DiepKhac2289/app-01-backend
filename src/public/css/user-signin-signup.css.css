@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.content-container{
+  display: flex;
+  justify-content: center;  /* Căn giữa theo chiều ngang */
+  align-items: center;      /* Căn giữa theo chiều dọc */
+  height: calc(100vh - 60px); /* Điều chỉnh chiều cao trừ đi chiều cao của header */
+  padding: 20px;
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  border-radius: 20px;
+  gap: 20px;
+  
+}
+
+fieldset legend{
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+fieldset .form-box{
+  margin-left: 20px;
+  display: flex;
+}
+
+fieldset .form-box label{
+  width: 100px;
+}
+
+fieldset .form-box input{
+  border-radius: 4px;
+  border: 0.5px solid #dee2e6;
+  padding: 2px;
+  padding-left: 8px;
+  background-color: #f1f3f5;
+  
+}
+
+input::placeholder{
+  font-size: 12px;
+}
+
+fieldset .submit{
+  margin-left: 20px;
+  width: 80px;
+  height: 25px;
+  background-color: #e2e5e8;
+  border: 0.5px solid #099268;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+fieldset .social-icon-container box-icon{
+  cursor: pointer;
+  border: 0.3 solid #7c7c7c;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+fieldset .social-icon-container box-icon:hover{
+  transform: scale(1.1);
+}
