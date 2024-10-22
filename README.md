@@ -47,5 +47,5 @@ GITHUB
 
 - git add . # Thêm tất cả các file
 - hoặc git add file1.js file2.css # Thêm các file cụ thể.
-- git commit -m "message"
+- git commit -m "update code"
 - git push origin main

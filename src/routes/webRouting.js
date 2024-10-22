@@ -21,6 +21,8 @@ router.post('/create-user', homeController.createUser);
 
 router.get('/sign-in', homeController.getSignIn);
 
+router.get('/signin-authentication', homeController.getSignInAuthentication);
+
 module.exports = router;
 
 
